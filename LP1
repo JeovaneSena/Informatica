@@ -1,0 +1,102 @@
+Questão A
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+main () {
+float a, b;
+
+printf ("Digite o primeiro numero: ");
+scanf ("%f", &a);
+printf ("Digite o segundo numero: ");
+scanf ("%f", &b);
+
+if (a == b)
+printf ("Os numeros sao iguais.\n");
+system ("pause");
+}
+
+
+Questão B
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+main () {
+float a, b;
+
+printf ("Digite o primeiro numero: ");
+scanf ("%f", &a);
+printf ("Digite o segundo numero: ");
+scanf ("%f", &b);
+
+if (a == b) {
+printf ("Os numeros sao iguais.\n");
+system ("pause");
+}
+
+else{
+printf ("Os numeros sao diferentes.\n");
+
+system ("pause");
+}
+}
+
+
+Questão C
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+main () {
+int a;
+
+printf ("Digite um numero: ");
+scanf ("%d", &a);
+
+if (a % 2 == 0) {
+printf ("O numero e par.\n");
+system ("pause");
+}
+else{
+
+printf ("O numero e impar.\n");
+
+system ("pause");
+}
+}
+
+Questão D
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+main () {
+int a, b;
+
+printf ("Digite o primeiro numero: ");
+scanf ("%d", &a);
+
+printf ("Digite o segundo numero: ");
+scanf ("%d", &b);
+
+if (a % b == 0) {
+printf ("A e divisivel por B.\n");
+system ("pause");
+}
+else{
+
+printf ("A nao e divisivel por B.\n");
+
+system ("pause");
+}
+}
+
+
