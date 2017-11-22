@@ -199,6 +199,57 @@ system ("pause");
 
 Questão H
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+main () {
+int a, b, c;
+
+printf ("Digite o primeiro numero: ");
+scanf ("%d", &a);
+
+printf ("Digite o segundo numero: ");
+scanf ("%d", &b);
+
+printf ("Digite o terceiro numero: ");
+scanf ("%d", &c);
+
+if (a > b && b > c) {
+printf ("O primeiro numero e %d.\n", a);
+printf ("E o ultimo numero e %d.\n", c);
+system ("pause"); }
+else {(a > c && c > b);
+printf ("O primeiro numero e %d.\n", a);
+printf ("E o ultimo numero e %d.\n", b);
+system ("pause");
+}
+
+if (b > c && c > a) {
+printf ("O primeiro numero e %d.\n", b);
+printf ("E o ultimo numero e %d.\n", a);
+else
+(b > a && a > c);
+printf ("O primeiro numero e %d.\n", b);
+printf ("E o ultimo numero e %d.\n", c);
+system ("pause");
+}
+
+
+if (c > a && a > b){
+printf ("O primeiro numero e %d.\n", c);
+printf ("O segundo numero e %d.\n", b);
+else
+(c > b && b > a);
+printf ("O primeiro numero e %d.\n", c);
+printf ("O segundo numero e %d.\n", a);
+}
+
+
+system ("pause");
+}
+
+
 
 
 
