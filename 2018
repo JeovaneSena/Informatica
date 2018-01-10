@@ -1,0 +1,64 @@
+Questão 1 
+LETRA B
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+main () {
+int a[30];
+
+for (int i=0; i<30; i++){
+	printf ("Informe o valor da posicao %d\n" , i);
+   scanf ("%d", &a [i]);
+   }
+   
+      system ("pause");
+      }
+
+LETRA B
+
+ #include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+main () {
+char a[10];
+	printf ("Informe o valor da posicao: ");
+
+for (int i=0; i<10; i++){
+scanf ("%c", &a [i]);
+   }
+   	for (int i = 9; i > 0; i--)
+      printf ("%c  \n", a [i]);
+      system ("pause");
+
+
+LETRA C
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void main () {
+int a[3], b [3], c [3];
+
+
+for (int i=0; i<4 ; i++){
+printf ("Informe o valor da posicao %d\n" , i);
+scanf ("%d", & a[i]);
+   }
+
+for (int i = 0; i < 5; i++){
+printf ("Informe o valor da posicao %d\n" , i);
+scanf ("%d", & b[i]);
+           }
+
+
+for (int i=0; i<5 ; i++)
+c[i] = a[i] + b[i] ;
+
+		for (int i = 0; i < 5; i++)
+      printf ("%d \n", c [i]);
+      system ("pause");
+      }
+
