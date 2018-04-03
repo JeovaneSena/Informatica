@@ -1,0 +1,63 @@
+1. Verifique em qual diretório você se encontra e coloque o nome dele abaixo.
+ls
+/home/alunos
+ 
+2) Crie a seguinte estrutura de diretórios dentro do diretório identificado acima.
+
+./my_test/my_work/
+./my_test/job1/
+./my_test/job1/task1/
+
+cd my_test
+cd my_work
+cd ..
+cd job1
+cd task1
+
+3) Entre na pasta my_work
+cd ..
+cd ..
+cd my_test/my_work
+
+4) Crie um arquivo chamado “numbers.txt” contendo o seguinte conteúdo:
+
+10
+100
+50
+25
+1
+2
+nano numbers.txt
+
+5) Duplique o arquivo numbers.txt para numbers1.txt e numbers2.texto
+cp numbers.txt numbers1.txt
+cp numbers.txt numbers2.txt
+
+6) Copiar todos os arquivos com extensão .txt para a pasta task1. Para tanto, utilize apenas um comando.
+cp numbers.txt ../job1/task1
+cp numbers1.txt ../job1/task1
+cp numbers2.txt ../job1/task1
+
+7) Acesse task1 e exibir todos os arquivos com seus detalhes (permissões de acesso, data, hora de criação, tamanho)
+ls -la
+
+
+8) Em task1, altere a permissão de acesso do arquivo numbers.txt para –rwxr-xr-x
+
+
+9) Altere a permissão de acesso do arquivo numbers1.txt para -rw-r—r--
+
+10) Copie a pasta task1 e seu conteúdo, para dentro do /home/seu_usuario
+
+11) Renomeie o diretório my_work para my_work1
+
+12) Apague a pasta task1
+
+13) Liste todos os arquivos da pasta /bin e guarde essa lista em um arquivo chamado “listabin.txt”
+
+14) Limpe o terminal
+
+15) Qual o comando lista todos os processos em execução no sistema operacional Ubuntu?
+
+16) Faça um formulário em script bash ou python, onde seja possível capturar entradas no sistema e imprimir um resumo ao final do preenchimento. Esse arquivo deve possuir, obrigatoriamente, as seguintes informações: nome, sobrenome, sexo, idade e grau de instrução. 
+
