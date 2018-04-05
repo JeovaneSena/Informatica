@@ -1,6 +1,6 @@
 1. Verifique em qual diretório você se encontra e coloque o nome dele abaixo.
 ls
-/home/alunos
+/home/jeovane
  
 2) Crie a seguinte estrutura de diretórios dentro do diretório identificado acima.
 
@@ -8,11 +8,13 @@ ls
 ./my_test/job1/
 ./my_test/job1/task1/
 
+mkdir my_test
 cd my_test
-cd my_work
-cd ..
+mkdir my_work
+mkdir job1
 cd job1
-cd task1
+mkdir taks1
+
 
 3) Entre na pasta my_work
 cd ..
