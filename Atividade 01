@@ -41,25 +41,50 @@ cp numbers1.txt ../job1/task1
 cp numbers2.txt ../job1/task1
 
 7) Acesse task1 e exibir todos os arquivos com seus detalhes (permissões de acesso, data, hora de criação, tamanho)
+cd my_test
+cd job1
+cd task1
 ls -la
 
 
 8) Em task1, altere a permissão de acesso do arquivo numbers.txt para –rwxr-xr-x
-
+ chmod 755 numbers.txt
 
 9) Altere a permissão de acesso do arquivo numbers1.txt para -rw-r—r--
+chmod 644 numbers1.txt
+
 
 10) Copie a pasta task1 e seu conteúdo, para dentro do /home/seu_usuario
+cp: -r não especificado; omitindo o diretório 'task1'
 
 11) Renomeie o diretório my_work para my_work1
+mv my_work my_work1
 
 12) Apague a pasta task1
+rm -r task1
 
 13) Liste todos os arquivos da pasta /bin e guarde essa lista em um arquivo chamado “listabin.txt”
+ls -la /bin > listabin.txt
 
 14) Limpe o terminal
+clear
 
 15) Qual o comando lista todos os processos em execução no sistema operacional Ubuntu?
+top
 
-16) Faça um formulário em script bash ou python, onde seja possível capturar entradas no sistema e imprimir um resumo ao final do preenchimento. Esse arquivo deve possuir, obrigatoriamente, as seguintes informações: nome, sobrenome, sexo, idade e grau de instrução. 
+
+16) Faça um formulário em script bash ou python, onde seja possível capturar entradas no sistema e imprimir um resumo ao 
+final do preenchimento. Esse arquivo deve possuir, obrigatoriamente, as seguintes informações: nome, sobrenome, sexo, idade e grau de instrução. 
+nano script.sh
+#!/bin/sh
+#__BEGIN_MAIN__
+
+echo Nome: Jeovane, Sobrenome: Sena, Sexo: Masculino, Idade: 21, Grau de instruçao 3º.
+#__END_MAIN__
+
+Sair
+sh script.sh
+
+
+
 
