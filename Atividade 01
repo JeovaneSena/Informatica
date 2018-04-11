@@ -75,15 +75,29 @@ top
 
 16) Faça um formulário em script bash ou python, onde seja possível capturar entradas no sistema e imprimir um resumo ao 
 final do preenchimento. Esse arquivo deve possuir, obrigatoriamente, as seguintes informações: nome, sobrenome, sexo, idade e grau de instrução. 
+
 nano script.sh
-#!/bin/sh
-#__BEGIN_MAIN__
 
-echo Nome: Jeovane, Sobrenome: Sena, Sexo: Masculino, Idade: 21, Grau de instruçao 3º.
-#__END_MAIN__
+#! /bin/bash
 
-Sair
-sh script.sh
+echo "Qual é o seu nome:"
+read nome
+
+echo "Qual é o seu sobrenome:"
+read sobrenome
+
+echo "Qual é o seu sexo:"
+read sexo
+
+echo "Qual é a sua idade:"
+read idade
+
+echo "Qual é o seu grau de instrucao:"
+read instrucao
+
+chmod 777 script.sh
+
+./script.sh
 
 
 
