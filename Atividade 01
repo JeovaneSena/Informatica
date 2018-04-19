@@ -1,5 +1,5 @@
 1. Verifique em qual diretório você se encontra e coloque o nome dele abaixo.
-ls
+pwd
 /home/jeovane
  
 2) Crie a seguinte estrutura de diretórios dentro do diretório identificado acima.
