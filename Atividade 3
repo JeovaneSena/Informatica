@@ -1,6 +1,5 @@
 QUESTÃO 1
 
-
 #!/usr/bin/python
 
 'Setting the position of nodes'
@@ -22,14 +21,14 @@ def topology():
     net.addStation('sta2', mac='00:00:00:00:00:03', ip='10.0.0.2/8',
                    position='80,30,0')
     net.addStation('sta3', mac='00:00:00:00:00:04', ip='10.0.0.3/8',
-                   position='120,90,0')
+                   position='130,90,0')
     net.addStation('sta4', mac='00:00:00:00:00:05', ip='10.0.0.4/8',
-                   position='180,100,0')
+                   position='120,100,0')
 
     ap1 = net.addAccessPoint('ap1', ssid='new-ssid1', mode='g', channel='1',
                              position='80,50,0')
     ap2 = net.addAccessPoint('ap2', ssid='new-ssid2', mode='g', channel='1',
-                         position='150,100,0')
+                         position='100,80,0')
 
     c1 = net.addController('c1', controller=Controller)
     h1 = net.addHost('h1', ip='10.0.0.3/8')
@@ -63,5 +62,8 @@ if __name__ == '__main__':
     setLogLevel('info')
     topology()
     
-    
     QUESTÃO 2
+    
+    Não, por que estão em estações diferentes.
+    
+    
